@@ -1,3 +1,14 @@
+| 方面        | 说明                                                 |
+| --------- | -------------------------------------------------- |
+| **业务场景**  | 在线宠物商店（浏览宠物、购物车、订单、账户管理）                           |
+| **技术栈**   | Spring + MyBatis + Servlet/JSP（**不是 Spring Boot**） |
+| **架构**    | 传统 MVC 三层架构（Controller → Service → Mapper）         |
+| **持久层**   | MyBatis（XML 映射文件 + Mapper 接口）                      |
+| **Web 层** | 传统 Servlet + JSP（非前后端分离）                           |
+| **构建工具**  | Maven                                              |
+
+
+
 MyBatis JPetStore
 =================
 
